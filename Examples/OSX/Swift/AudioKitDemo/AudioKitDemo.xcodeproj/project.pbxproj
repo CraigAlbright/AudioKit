@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442FEB0E1ADC51C700721570 /* Best808EVER.wav in Resources */ = {isa = PBXBuildFile; fileRef = 442FEB0D1ADC51C700721570 /* Best808EVER.wav */; };
 		C452F0DB1ABFEDBE003670A4 /* Amplifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C452F0B31ABFEDBE003670A4 /* Amplifier.m */; };
 		C452F0DC1ABFEDBE003670A4 /* StereoAmplifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C452F0B51ABFEDBE003670A4 /* StereoAmplifier.m */; };
 		C452F0DD1ABFEDBE003670A4 /* AKAudioAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = C452F0B81ABFEDBE003670A4 /* AKAudioAnalyzer.m */; };
@@ -202,6 +203,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		442FEB0D1ADC51C700721570 /* Best808EVER.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Best808EVER.wav; sourceTree = "<group>"; };
 		C452F0B21ABFEDBE003670A4 /* Amplifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amplifier.h; sourceTree = "<group>"; };
 		C452F0B31ABFEDBE003670A4 /* Amplifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amplifier.m; sourceTree = "<group>"; };
 		C452F0B41ABFEDBE003670A4 /* StereoAmplifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoAmplifier.h; sourceTree = "<group>"; };
@@ -1261,6 +1263,7 @@
 		C4ED1FBE1AB8E08200366020 /* Sound Files */ = {
 			isa = PBXGroup;
 			children = (
+				442FEB0D1ADC51C700721570 /* Best808EVER.wav */,
 				C4ED1FBF1AB8E08200366020 /* 808loop.wav */,
 				C4ED1FC01AB8E08200366020 /* dish.wav */,
 				C4ED1FC11AB8E08200366020 /* mandpluk.aif */,
@@ -1403,6 +1406,7 @@
 				C4ED205F1AB8E08200366020 /* PianoBassDrumLoop.wav in Resources */,
 				E42CC0DD1AB245DB00689511 /* Main.storyboard in Resources */,
 				C4ED205C1AB8E08200366020 /* dish.wav in Resources */,
+				442FEB0E1ADC51C700721570 /* Best808EVER.wav in Resources */,
 				C4ED205B1AB8E08200366020 /* 808loop.wav in Resources */,
 				C4ED20601AB8E08200366020 /* Stairwell.wav in Resources */,
 				C4ED1FC71AB8E08200366020 /* AudioKit.plist in Resources */,
