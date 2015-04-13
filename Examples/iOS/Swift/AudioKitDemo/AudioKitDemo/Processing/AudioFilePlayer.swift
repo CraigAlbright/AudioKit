@@ -26,7 +26,8 @@ class AudioFilePlayer: AKInstrument {
         addProperty(sampleMix)
         
         let file1 = String(NSBundle.mainBundle().pathForResource("PianoBassDrumLoop", ofType: "wav")!)
-        let file2 = String(NSBundle.mainBundle().pathForResource("808loop",           ofType: "wav")!)
+        //let file2 = String(NSBundle.mainBundle().pathForResource("808loop",           ofType: "wav")!)
+        let file2 = String(NSBundle.mainBundle().pathForResource("Best808EVER", ofType: "wav")!)
         
         let fileIn1 = AKFileInput(filename: file1)
         fileIn1.speed = speed
