@@ -127,7 +127,7 @@ static int currentID = 2000;
     csoundGetTable(cs, &table, _number);
     float max = 0.0;
     for (int i = 0; i < _size; i++) {
-        max = MAX(max, fabsf(table[i]));
+        max = MAX(max, fabs(table[i]));
     }
     if (max > 0.0) {
         [self scaleBy:1.0/max];

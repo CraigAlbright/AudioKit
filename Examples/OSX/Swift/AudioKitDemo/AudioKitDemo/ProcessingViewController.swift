@@ -21,10 +21,10 @@ class ProcessingViewController: NSViewController {
     let audioFilePlayer = AudioFilePlayer()
     
     
-    override init() {
+    override init?(nibName nibNameOrNil: String?,bundle nibBundleOrNil: NSBundle?)  {
         conv = ConvolutionInstrument(input: audioFilePlayer.auxilliaryOutput)
         pitchToMaintain = 1.0
-        super.init()
+        super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {

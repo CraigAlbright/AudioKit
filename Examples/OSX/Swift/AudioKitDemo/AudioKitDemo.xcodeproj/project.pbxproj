@@ -176,7 +176,7 @@
 		C4ED205F1AB8E08200366020 /* PianoBassDrumLoop.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4ED1FC31AB8E08200366020 /* PianoBassDrumLoop.wav */; };
 		C4ED20601AB8E08200366020 /* Stairwell.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4ED1FC41AB8E08200366020 /* Stairwell.wav */; };
 		C4ED20621AB8E0FB00366020 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED20611AB8E0FB00366020 /* TouchView.swift */; };
-		C4ED20631AB8E24700366020 /* CsoundLib64.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4ED1F871AB8E08100366020 /* CsoundLib64.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4ED20631AB8E24700366020 /* CsoundLib64.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4ED1F871AB8E08100366020 /* CsoundLib64.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4006CCC1AB24D1700375B5B /* ProcessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4006CCB1AB24D1700375B5B /* ProcessingViewController.swift */; };
 		E4006CCE1AB24D1C00375B5B /* SynthesisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4006CCD1AB24D1C00375B5B /* SynthesisViewController.swift */; };
 		E42CC0D61AB245DB00689511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42CC0D51AB245DB00689511 /* AppDelegate.swift */; };
@@ -1367,7 +1367,7 @@
 		E42CC0C81AB245DB00689511 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = AudioKit;
 				TargetAttributes = {
 					E42CC0CF1AB245DB00689511 = {

@@ -23,10 +23,10 @@ class AnalysisViewController: NSViewController {
     let analysisSequence = AKSequence()
     let updateAnalysis = AKEvent()
     
-    override init() {
+    override init?(nibName nibNameOrNil: String?,bundle nibBundleOrNil: NSBundle?) {
         microphone = Microphone()
         analyzer = AKAudioAnalyzer(audioSource: microphone.auxilliaryOutput)
-        super.init()
+            super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {

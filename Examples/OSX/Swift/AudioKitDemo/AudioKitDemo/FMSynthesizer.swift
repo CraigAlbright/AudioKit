@@ -39,7 +39,7 @@ class FMSynthesizer: AKInstrument{
 class FMSynthesizerNote: AKNote {
     
     // Note Properties
-    var frequency = AKNoteProperty(value: 440, minimum: 100, maximum: 20000)
+    var frequency = AKNoteProperty(value: 440, minimum: 30, maximum: 10000)
     var color = AKNoteProperty(value: 0, minimum: 0, maximum: 1)
     
     override init() {
